@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charsets="UTF-8">
+    <title> IS322 Project 1 </title>
+
+    <link href="https://cdnjsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <div class="dropdown">
+    <button> Price Range </button>
+    </div>
+    <div class="dropdown-content">
+    <a href="$0.00-19.99">$0.00-$19.99</a>
+    <a href="$20.00-39.99">$20.00-$39.99</a>
+    <a href="$40.00-59.99">$40.00-$59.99</a>
+    <a href="$60.00-79.99">$60.00-$79.99</a>
+    <a href="$80.00-99.99">$80.00-$99.99</a>
+    <a href="$100.00-119.99">$100.00-$119.99</a>
+    <a href="$120.00-139.99">$120.00-$139.99</a>
+    <a href="$140.00-159.99">$140.00-$159.99</a>
+    <a href="$160.00-179.99">$160.00-$179.99</a>
+    </div>
+
+    <div class="dropdown">
+    <button> Order By</button>
+    </div>
+    <div class="dropdown-content">
+    <a href="A-E">A-E</a>
+    <a href="F-J">F-J</a>
+    <a href="K-O">K-O</a>
+    <a href="P-T">P-T</a>
+    <a href="U-Z">U-Z</a>
+    </div>
+
+</head>
+<body>
+    <div class="containter">
+        <h2 class="text-center">Amaro Soccer Store</h2>
+        <h3>Product List Page</h3>
+
+        <div class="filter-container">
+            <select id="published">
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </select>
+        </div>
+
+        <div id="products"></div>
+
+    </div>
+    <script src="main.js"></script>
+    <script>
+        function myFunction() {
+          document.body.style.backgroundColor = "white";
+        }
+        </script>
+    <main>
+        <div class="store-prodcuts">
+            <selection class="container" id="store-products">
+                
+                <div class="store-product soccer balls">
+                    <img src="./img/Soccer Balls.jpg" alt="">
+                    <div class="product-details">
+                        <h2> soccer balls </h2>
+                        <p><span>$9.99 </span> $40.00</p>
+                    </div>
+
+                <div class="store-product soccer cleats">
+                    <img src="./img/Soccer Cleats.jpg" alt="">
+                    <div class="product-details">
+                       <h2> soccer cleats </h2>
+                       <p><span>$9.99 </span> $240.00</p>
+                    </div>
+
+                <div class="store-product soccer Gear">
+                    <img src="./img/Soccer Gear.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer Gear </h2>
+                        <p><span>$9.99 </span> $150.00</p>
+                    </div>
+
+                <div class="store-product soccer goalie gloves">
+                    <img src="./img/Soccer Goalie Gloves.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer goalie gloves </h2>
+                        <p><span>$29.99 </span> $99.99</p>
+                    </div>
+                <div class="store-product soccer goalie jersey">
+                    <img src="./img/Soccer Goalie Jersey.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer Goalie Jersey </h2>
+                        <p><span>$39.99 </span> $79.99</p>
+                    </div>
+                <div class="store-product soccer Jersey">
+                    <img src="./img/Soccer Jersey.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer Jersey </h2>
+                        <p><span>$29.99 </span> $149.99</p>
+                    </div>
+                <div class="store-product soccer Referee Gear">
+                    <img src="./img/Soccer Referee Gear.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer Referee Gear </h2>
+                        <p><span>$19.99 </span> $89.99</p>
+                    </div>
+                <div class="store-product soccer scarves">
+                    <img src="./img/Soccer Scarves.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer Scarves </h2>
+                        <p><span>$5.99 </span> $49.99</p>
+                    </div>
+                <div class="store-product soccer shorts">
+                    <img src="./img/Soccer Shorts.jpg" alt="">
+                    <div class="product-details">
+                        <h2> Soccer Shorts</h2>
+                        <p><span>$9.99 </span> $59.99</p>
+                    </div>
+                </div>
+
+            </selection>
+        </div>
+
+    </main>
+</body>
+</html>
